@@ -23,7 +23,7 @@ Run the python script from the terminal or using a text editor that allows you t
 	# I created a dummy file *<text.txt>* that you can use to test the code.
 ```
 
-```console
+```bash
 	$ cd pw_python_03/exercicio_1
 	$ python principal.py
 	 Please Enter the file name: text.txt
@@ -38,7 +38,7 @@ Run the python script from the terminal or using a text editor that allows you t
 	# I created a dummy folder *<TEST>* that you can use to test the code
 ```
 
-```console
+```bash
 	$ cd pw_python_03/exercicio_2
 	$ python main.py
 	 Welcome! This programm analizes any kind of file inside a folder.
@@ -60,7 +60,7 @@ Run the python script from the terminal or using a text editor that allows you t
 	# I created a dummy folder *<TEST>* that you can use to test the code
 ```
 
-```console
+```bash
 	$ cd pw_python_03/exercicio_3
 	$ python folder_calculator.py
 	 Welcome! This programm analizes any kind of file inside a folder.
