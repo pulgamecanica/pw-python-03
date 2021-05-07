@@ -11,7 +11,6 @@ def main():
 					"Words_Dictionary": analisa_ficheiro.calcula_ocorrencia_de_letras(fileName)
 	}
 	json.dump(jsonText, jsonFile, indent = 4, sort_keys=True)
-
-
+	print("Created", analisa_ficheiro.gera_nome(fileName), "! :)")
 if __name__ == "__main__": 
     main()

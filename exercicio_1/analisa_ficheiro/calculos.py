@@ -23,7 +23,6 @@ def calcula_palavra_comprida(fileName):
 			if len(word) > len(winnerWord):
 				winnerWord = word
 		return winnerWord
-
 def calcula_ocorrencia_de_letras(fileName):
 	if not os.path.exists(fileName):
 		print(f"The file {fileName} doesn't exists")
