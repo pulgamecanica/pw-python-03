@@ -17,6 +17,7 @@ def calcula_palavra_comprida(fileName):
 	else:
 		f = open(fileName, "r")
 		wordArray = f.read().split()
+		f.close()
 		winnerWord = ""
 		for word in wordArray:
 			if len(word) > len(winnerWord):
@@ -29,6 +30,7 @@ def calcula_ocorrencia_de_letras(fileName):
 	else:
 		f = open(fileName, "r")
 		wordArray = f.read().lower()
+		f.close()
 		dictionary = {}
 		for word in wordArray:
 			if word in dictionary:
@@ -36,4 +38,3 @@ def calcula_ocorrencia_de_letras(fileName):
 			else:
 				dictionary[word] = 1
 		return dictionary
-print(calcula_palavra_comprida("lorem.txt"))
