@@ -1,0 +1,33 @@
+t.set_color('grey')
+for autotext in autotexts:
+    autotext.set_color('grey')
+# Equal aspect ratio ensures that pie is drawn as a circle
+ax1.axis('equal')  
+plt.tight_layout()
+plt.show()
+Now our pie chart looks something like this:
+
+color changes of labels
+Changing the pie chart to donut chart to look more cool and AWESOME!!
+Method of making donut graph from pie chart in MatPlotLib documentation is complicated rather we can just change the pie chart to donut chart by drawing a circle with white color at origin(Source: here).
+Modify code as below to draw a circle centered at (0,0)
+import matplotlib.pyplot as plt
+# Pie chart
+labels = ['Frogs', 'Hogs', 'Dogs', 'Logs']
+sizes = [15, 30, 45, 10]
+#colors
+colors = ['#ff9999','#66b3ff','#99ff99','#ffcc99']
+ 
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, colors = colors, labels=labels, autopct='%1.1f%%', startangle=90)
+#draw circle
+centre_circle = plt.Circle((0,0),0.70,fc='white')
+fig = plt.gcf()
+fig.gca().add_artist(centre_circle)
+# Equal aspect ratio ensures that pie is drawn as a circle
+ax1.axis('equal')  
+plt.tight_layout()
+plt.show()
+
+donut chart from pie chart with white circle at center
+Changing positions of labels

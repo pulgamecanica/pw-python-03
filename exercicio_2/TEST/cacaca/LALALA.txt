@@ -1,0 +1,17 @@
+Exercício 3
+Crie uma pasta exercicio_3.
+
+Crie a função recursiva calcula_tamanho_pasta(pasta) que:
+
+recebe o nome duma pasta.
+calcula o tamanho total em MBytes dos ficheiros nela contidos, tanto na pasta como nas sub-pastas.
+Sugestão:
+
+defina uma variável soma para somar o volume total dos ficheiros da pasta.
+itere pelos elementos da pasta (com o método os.listdir(pasta))
+construa o caminho absoluto, com os.path.join(pasta,elemento)
+se for um ficheiro (verifique$^1$ com os.path.isfile()), adicione o seu tamanho a soma.
+Se for uma pasta (verifique$^1$ com os.path.isdir()), adicione a soma o resultado de calcula_tamanho_pasta(pasta)
+no final do ciclo retorne soma.
+Crie um programa que utilize a função, utilizando uma função semelhante a pede_nome do modulo do exercicio 1, para pedir o nome de uma pasta para analisar.
+
