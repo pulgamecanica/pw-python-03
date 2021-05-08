@@ -30,9 +30,9 @@ def main():
 		return -1
 	print("Escolheste a opcao", car_option)
 	car = Automovel(capacidade, deposito, consumo) if not answer else Automovel(capacidade, deposito, consumo, nome)
-	while True:
-		print(f"-----MENU ({car.nome}) Model{car_option}-----")
-		print(" (1) Consultar combustivel.\n", "(2) Autonomia.\n", "(3) Abastecer!\n","(4) Precorrer!\n", "(5) See car\n","(0) EXIT")
+	print(f"-----MENU ({car.nome}) Model{car_option}-----")
+	print(" (1) Consultar combustivel.\n", "(2) Autonomia.\n", "(3) Abastecer!\n","(4) Precorrer!\n", "(5) See car\n","(0) EXIT")
+	while True:	
 		option = int(input("Escolhe uma opcao: "))
 		if option == 1:
 			print("O combustivel disponivel é: ", car.combustivel(), "Litros.")
@@ -52,6 +52,5 @@ def main():
 			break
 		else : 
 			print("Opcao invalida!")
-
 if __name__ == "__main__": 
   main()
