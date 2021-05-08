@@ -11,6 +11,8 @@
 + ##### Exercise3
 	- Recursive function exercise
 + ##### Exercise4
+	- Classes
+	- Car Class
 
 ### Usage
 Run the python script from the terminal or using a text editor that allows you to run python3 code.
@@ -72,4 +74,68 @@ Run the python script from the terminal or using a text editor that allows you t
 	 ********************
 ```
 
+#### Exercise4:
+
+```console
+	# Locate the exercice in your enviroment
+	# Run python script
+	# Have Fun
+```
+
+```bash
+	$ cd pw_python_03/exercicio_4
+	$ python carro.py
+	 Olá, este programa permite gerir um automovel
+	 Queres dar um nome ao teu carro?[y/n]: y
+	 Escreve o nome: Rayo McQueen
+	 Carros Disponiveis: 
+	--------------------------------------------------------------------------------
+	(1) - STATS: Capacidade do Deposito: 300L | Consumo: 50/100Km.
+	   ______
+	 /|_||_\`.__
+	(   _    _ _\ 
+	=`-(_)--(_)-''
+	--------------------------------------------------------------------------------
+	(2) - STATS: Capacidade do Deposito: 100L | Consumo: 30/100Km.
+	    _-_-  _/\______\__
+	 _-_-__  / ,-. -|-  ,-.`-.
+	=-- _-_- `( o )----( o )-''
+	           `-'      `-'
+	--------------------------------------------------------------------------------
+	(3) - STATS: Capacidade do Deposito: 250L | Consumo: 40/100Km.
+	     ,-----,     
+	 ,--'---:---'--,
+	==(o)-----(o)==J
+	Escolhe um dos carro: 1
+	Escolheste a opcao 1
+	-----MENU (Rayo McQueen) Model1-----
+	 (1) Consultar combustivel.
+	 (2) Autonomia.
+	 (3) Abastecer!
+	 (4) Precorrer!
+	 (5) See car
+	 (0) EXIT
+	Escolhe uma opcao: 1
+	O combustivel disponivel é:  100 Litros.
+	Escolhe uma opcao: 2
+	 Autonomía:  200 Km.
+	Escolhe uma opcao: 3
+	 Quantidade de combustivel(Litros): 500
+	 Erro, nao pode abastecer mais do que o tanque permite...
+	Escolhe uma opcao: 3
+	 Quantidade de combustivel(Litros): 30
+	 Abasteceu...
+	Escolhe uma opcao: 4
+	 Distancia precorrida(Km): 20
+	 Precorreu...
+	Escolhe uma opcao: 5
+	--------------------------------------------------------------------------------
+	 (1) Rayo McQueen - STATS: Capacidade do Deposito: 300L | Consumo: 50/100Km.
+	    ______
+	  /|_||_\`.__
+	 (   _    _ _\ 
+	 =`-(_)--(_)-''
+	Escolhe uma opcao: 0
+	Alright. Bye bye!
+```
 ##### If you have any advice for me, open an Issue and I'll have a look! :)
